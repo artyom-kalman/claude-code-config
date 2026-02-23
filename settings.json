@@ -29,6 +29,15 @@
             "command": "bash ~/.claude/hooks/wc3-error.sh"
           }
         ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ~/.claude/hooks/wc3-plan.sh &"
+          }
+        ]
       }
     ],
     "Stop": [
