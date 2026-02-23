@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# Track config
+!.gitignore
+!settings.json
+
+# Track hooks
+!hooks/
+!hooks/*
+
+# Track custom commands
+!commands/
+!commands/*
