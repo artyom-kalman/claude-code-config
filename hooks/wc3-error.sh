@@ -20,5 +20,5 @@ if [ "$IS_ERROR" = "true" ]; then
   fi
 
   echo "$NOW" > "$LOCK"
-  paplay ~/Audio/sounds/wc3_were_under_attack.mp3 &
+  paplay --volume=32768 ~/Audio/sounds/wc3_were_under_attack.mp3 &
 fi

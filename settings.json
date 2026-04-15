@@ -45,7 +45,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "paplay ~/Audio/sounds/wc3_work_complite.mp3 &"
+            "command": "paplay --volume=32768 ~/Audio/sounds/wc3_work_complite.mp3 &"
           }
         ]
       }

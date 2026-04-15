@@ -19,5 +19,5 @@ if echo "$FILE_PATH" | grep -q '/plans/'; then
   fi
 
   echo "$NOW" > "$LOCK"
-  paplay ~/Audio/sounds/wc3_opiat_rabota.mp3 &
+  paplay --volume=32768 ~/Audio/sounds/wc3_opiat_rabota.mp3 &
 fi

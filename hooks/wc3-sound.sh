@@ -13,4 +13,4 @@ if [ -f "$LOCK" ]; then
 fi
 
 echo "$NOW" > "$LOCK"
-paplay ~/Audio/sounds/wc3_zug_zug.mp3 &
+paplay --volume=32768 ~/Audio/sounds/wc3_zug_zug.mp3 &
