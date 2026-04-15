@@ -3,7 +3,8 @@
     "allow": [
       "Bash(bun lint:*)",
       "Bash(bun test:*)",
-      "Bash(bunx tsc:*)"
+      "Bash(bunx tsc:*)",
+      "Bash(bun run lint:*)"
     ]
   },
   "hooks": {
@@ -57,5 +58,11 @@
   "enabledPlugins": {
     "frontend-design@claude-plugins-official": true
   },
-  "skipDangerousModePermissionPrompt": true
+  "effortLevel": "medium",
+  "skipDangerousModePermissionPrompt": true,
+  "voiceEnabled": true,
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  }
 }
