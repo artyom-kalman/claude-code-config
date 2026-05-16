@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOUNDS_DIR="$HOME/Audio/sounds"
+SOUNDS_DIR="$HOME/Music/sounds"
 
 case "$CLAUDE_HOOK_EVENT" in
   "stop")
